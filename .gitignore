@@ -47,24 +47,13 @@ logs/
 # Output Files (Generated Creatives)
 output/
 */output/
-task2-automation-pipeline/output/
-task3-ai-agent/logs/
-task3-ai-agent/alerts/
+creative-cli/output/
 
 # Generated Assets
 assets/generated/
 assets/products/*/
-task2-automation-pipeline/assets/generated/
-task2-automation-pipeline/assets/products/*/
-
-# Agent State Files
-task3-ai-agent/logs/agent_state.json
-task3-ai-agent/logs/alerts.log
-
-# Campaign Briefs (may contain sensitive data)
-task3-ai-agent/briefs/*.json
-task3-ai-agent/briefs/*.yaml
-task3-ai-agent/briefs/*.yml
+creative-cli/assets/generated/
+creative-cli/assets/products/*/
 
 # Jupyter Notebooks
 .ipynb_checkpoints/

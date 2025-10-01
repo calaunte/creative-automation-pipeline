@@ -44,9 +44,9 @@ This proof-of-concept tool demonstrates automated creative generation for global
 
 ### Setup Steps
 
-1. **Clone or navigate to the project directory**:
+1. **Navigate to the CLI tool directory**:
    ```bash
-   cd task2-automation-pipeline
+   cd creative-cli
    ```
 
 2. **Create a virtual environment** (recommended):
