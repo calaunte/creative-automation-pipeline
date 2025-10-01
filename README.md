@@ -50,11 +50,17 @@ creative-automation-pipeline/
 
 ### Core Functionality
 ✅ **Campaign Brief Parser**: Accepts JSON/YAML campaign briefs with validation
+
 ✅ **Multi-Product Support**: Process multiple products in a single campaign
+
 ✅ **Asset Management**: Intelligent asset reuse and caching
+
 ✅ **GenAI Image Generation**: Generates missing assets using OpenAI DALL-E 3
+
 ✅ **Multi-Format Generation**: Creates creatives for 3 aspect ratios (1:1, 9:16, 16:9)
+
 ✅ **Text Overlay**: Adds campaign messages with brand-aligned styling
+
 ✅ **Organized Output**: Saves creatives organized by product and aspect ratio
 
 ### Quality Assurance (Bonus)
