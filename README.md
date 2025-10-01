@@ -40,7 +40,6 @@ creative-automation-pipeline/
 │   ├── requirements.txt             # Python dependencies
 │   └── README.md                    # Detailed documentation
 │
-├── CLAUDE.md                        # Claude Code guidance
 ├── .gitignore                       # Git ignore rules
 └── README.md                        # This file
 ```
