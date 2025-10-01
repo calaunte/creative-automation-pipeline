@@ -1,0 +1,34 @@
+{
+  "campaign_name": "summer_refresh_2025",
+  "products": [
+    {
+      "product_id": "energy_drink_001",
+      "product_name": "PowerBoost Energy Drink",
+      "product_description": "Premium energy drink with natural caffeine, vitamins, and electrolytes. Sleek blue can design with modern typography.",
+      "product_image": null
+    },
+    {
+      "product_id": "protein_bar_002",
+      "product_name": "VitaFit Protein Bar",
+      "product_description": "High-protein nutrition bar with chocolate and peanut butter flavor. Organic ingredients and eco-friendly packaging.",
+      "product_image": null
+    }
+  ],
+  "target_region": "North America",
+  "target_audience": "Active millennials and Gen Z (ages 18-35) who prioritize health, fitness, and sustainability",
+  "campaign_message": "Fuel Your Adventure - Discover the perfect energy boost for your active lifestyle",
+  "brand_guidelines": {
+    "primary_color": "#0066CC",
+    "secondary_color": "#FF6600",
+    "font_family": "Arial"
+  },
+  "localization": {
+    "languages": ["en", "es", "fr"],
+    "translations": {
+      "en": "Fuel Your Adventure - Discover the perfect energy boost for your active lifestyle",
+      "es": "Alimenta Tu Aventura - Descubre el impulso de energía perfecto para tu estilo de vida activo",
+      "fr": "Alimentez Votre Aventure - Découvrez le coup de pouce énergétique parfait pour votre mode de vie actif"
+    }
+  },
+  "aspect_ratios": ["1:1", "9:16", "16:9"]
+}

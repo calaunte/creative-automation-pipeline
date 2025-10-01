@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Environment Variables (IMPORTANT: Contains API Keys!)
+.env
+*.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Output Files (Generated Creatives)
+output/
+*/output/
+task2-automation-pipeline/output/
+task3-ai-agent/logs/
+task3-ai-agent/alerts/
+
+# Generated Assets
+assets/generated/
+assets/products/*/
+task2-automation-pipeline/assets/generated/
+task2-automation-pipeline/assets/products/*/
+
+# Agent State Files
+task3-ai-agent/logs/agent_state.json
+task3-ai-agent/logs/alerts.log
+
+# Campaign Briefs (may contain sensitive data)
+task3-ai-agent/briefs/*.json
+task3-ai-agent/briefs/*.yaml
+task3-ai-agent/briefs/*.yml
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Documentation builds
+docs/_build/
+
+# Package manager
+pip-log.txt
+pip-delete-this-directory.txt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Sensitive data
+*.key
+*.pem
+*.p12
+credentials.json
+secrets.json
+api_keys.txt

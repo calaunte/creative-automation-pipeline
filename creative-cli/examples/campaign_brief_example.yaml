@@ -1,0 +1,35 @@
+campaign_name: "holiday_gift_guide_2025"
+products:
+  - product_id: "smart_watch_001"
+    product_name: "TechFit Smartwatch Pro"
+    product_description: "Premium fitness smartwatch with heart rate monitoring, GPS, and 7-day battery life. Available in silver, black, and rose gold."
+    product_image: null
+
+  - product_id: "wireless_earbuds_002"
+    product_name: "AudioPure Wireless Earbuds"
+    product_description: "High-fidelity wireless earbuds with active noise cancellation and 30-hour battery life. Compact charging case included."
+    product_image: null
+
+target_region: "Global - EU and APAC focus"
+target_audience: "Tech-savvy gift shoppers aged 25-50, looking for premium gadgets for loved ones"
+campaign_message: "Perfect Gifts for Everyone - Premium tech that makes every moment special"
+
+brand_guidelines:
+  primary_color: "#2C3E50"
+  secondary_color: "#E74C3C"
+  font_family: "Helvetica"
+
+localization:
+  languages:
+    - en
+    - de
+    - ja
+  translations:
+    en: "Perfect Gifts for Everyone - Premium tech that makes every moment special"
+    de: "Perfekte Geschenke für Alle - Premium-Technik, die jeden Moment besonders macht"
+    ja: "みんなへの完璧なギフト - すべての瞬間を特別にするプレミアムテクノロジー"
+
+aspect_ratios:
+  - "1:1"
+  - "9:16"
+  - "16:9"
