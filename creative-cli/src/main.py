@@ -190,7 +190,28 @@ class CreativeAutomationPipeline:
             if not image_data:
                 raise Exception("Failed to generate image")
 
-            print(f"  {Fore.GREEN}✓ Generated new asset")
+            # Save generated image to assets/products folder for future reuse across campaigns
+            import tempfile
+            with tempfile.NamedTemporaryFile(delete=False, suffix='.png') as tmp_file:
+                tmp_file.write(image_data)
+                tmp_path = tmp_file.name
+
+            saved_path = self.asset_manager.save_product_asset(
+                product_id=product_id,
+                asset_path=tmp_path,
+                asset_name='product.png'
+            )
+
+            # Clean up temp file
+            Path(tmp_path).unlink()
+
+            # Get relative path for display
+            try:
+                display_path = saved_path.relative_to(self.config.BASE_DIR)
+            except ValueError:
+                display_path = saved_path
+
+            print(f"  {Fore.GREEN}✓ Generated new asset (saved to {display_path})")
 
         # Generate multi-format creatives
         print(f"  {Fore.YELLOW}Creating format variants...")
